@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Vanilla Place Picker</string>
+
+
+    <!-- GOOGLE KEY MUST BE GOOGLE CLOUD -->
+    <string name="google_key">YOUR KEY HERE</string>
+    <string name="pick_a_place">Pick a place!</string>
+</resources>

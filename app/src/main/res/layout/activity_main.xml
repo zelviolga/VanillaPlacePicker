@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/vanillaPlacePicker"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/pick_a_place" />
+
+
+    <ImageView
+        android:id="@+id/imageMaps"
+        android:layout_width="match_parent"
+        android:layout_height="320dp"
+        android:contentDescription="@string/app_name"
+        android:scaleType="centerCrop" />
+
+</LinearLayout>
